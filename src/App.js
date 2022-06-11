@@ -5,7 +5,7 @@ function App() {
   const [restaurants, setRest] = useState([
     {
       id: 0,
-      imageUrl: '/img/hall/0_theView.jpg',
+      imageUrl: '../img/hall/0_theView.jpg',
       name: 'The View',
       capacity: 80,
       rating: 4,
@@ -15,7 +15,7 @@ function App() {
     },
     {
       id: 1,
-      imageUrl: '/img/hall/1_Astoria.jpg',
+      imageUrl: '../img/hall/1_Astoria.jpg',
       name: 'Astoria',
       capacity: 70,
       rating: 5,
@@ -25,7 +25,7 @@ function App() {
     },
     {
       id: 2,
-      imageUrl: '/img/hall/2_ZalkindKitchen.jpg',
+      imageUrl: '../img/hall/2_ZalkindKitchen.jpg',
       name: 'Zalkind Kitchen',
       capacity: 30,
       rating: 5,
@@ -35,7 +35,7 @@ function App() {
     },
     {
       id: 3,
-      imageUrl: '/img/hall/3_LeGosse.jpg',
+      imageUrl: '../img/hall/3_LeGosse.jpg',
       name: 'Le Gosse',
       capacity: 32,
       rating: 5,
@@ -45,7 +45,7 @@ function App() {
     },
     {
       id: 4,
-      imageUrl: '/img/hall/4_Fornello.jpg',
+      imageUrl: '../img/hall/4_Fornello.jpg',
       name: 'Fornello',
       capacity: 120,
       rating: 5,
