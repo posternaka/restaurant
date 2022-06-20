@@ -92,10 +92,10 @@ body {
   background: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.8));
 }
 
-[data-foo=0], [data-foo=1], [data-foo=2], [data-foo=3], [data-foo=4] {
+/* [data-foo=0], [data-foo=1], [data-foo=2], [data-foo=3], [data-foo=4] {
   animation-name: fade;
   animation-duration: .5s;
-}
+} */
 
 /* Работа с доп. информацией */
 .info_but a {
