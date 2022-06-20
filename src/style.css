@@ -78,18 +78,10 @@ body {
   position: absolute;
   top: 0;
   width: 20%;
-  /* top: 50%; */
-  /* margin-top: -22px; */
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
 }
 
 .container .next {
   right: 0;
-  border-radius: 3px 0 0 3px;
 }
 
 .container .previous:hover {
@@ -100,9 +92,9 @@ body {
   background: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.8));
 }
 
-.container .item {
+[data-foo=0], [data-foo=1], [data-foo=2], [data-foo=3], [data-foo=4] {
   animation-name: fade;
-  animation-duration: 1s;
+  animation-duration: .5s;
 }
 
 /* Работа с доп. информацией */
@@ -144,6 +136,7 @@ body {
 
 .block_info:hover .info_body {
   display: block;
+  transition: all 1s;
 }
 
 .body_text {
